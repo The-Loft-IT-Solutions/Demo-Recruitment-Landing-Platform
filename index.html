@@ -688,12 +688,12 @@ tr:hover td { background: #FAFAF7; }
     <div class="demo-nav-label">Choose a view to explore</div>
     <div class="demo-nav-cards">
       <div class="demo-card highlight" onclick="showView('landing')">
-        <div class="demo-card-icon">🌐</div>
+        <div class="demo-card-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <div class="demo-card-title">Public Landing Page</div>
         <div class="demo-card-desc">The client-facing website — hero, dual lead capture forms, testimonials, chatbot widget, and exit-intent modal.</div>
       </div>
       <div class="demo-card" onclick="showView('dashboard')">
-        <div class="demo-card-icon">📊</div>
+        <div class="demo-card-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
         <div class="demo-card-title">Admin Dashboard</div>
         <div class="demo-card-desc">The internal tool for your team — lead management, KPI cards, activity feed, and lead status tracking.</div>
       </div>
@@ -704,9 +704,9 @@ tr:hover td { background: #FAFAF7; }
 
 <!-- ── VIEW SWITCHER ── -->
 <div id="view-switcher">
-  <button class="vsw-btn active" id="vsw-landing" onclick="showView('landing')">🌐 Landing Page</button>
+  <button class="vsw-btn active" id="vsw-landing" onclick="showView('landing')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:-2px;margin-right:4px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Landing Page</button>
   <div class="vsw-divider"></div>
-  <button class="vsw-btn" id="vsw-dashboard" onclick="showView('dashboard')">📊 Admin Dashboard</button>
+  <button class="vsw-btn" id="vsw-dashboard" onclick="showView('dashboard')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:-2px;margin-right:4px;"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>Admin Dashboard</button>
   <div class="vsw-divider"></div>
   <button class="vsw-btn" onclick="document.getElementById('demo-nav').classList.remove('hidden')" style="font-size:12px;color:rgba(255,255,255,0.4);">↩ Menu</button>
 </div>
@@ -758,7 +758,7 @@ tr:hover td { background: #FAFAF7; }
           <h4>Sample Candidate</h4>
           <p>UX Designer · Sample Company</p>
         </div>
-        <div class="match-badge">✓ Placed</div>
+        <div class="match-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="display:inline;vertical-align:-1px;margin-right:2px;"><polyline points="20 6 9 17 4 12"/></svg>Placed</div>
       </div>
       <div class="match-item">
         <div class="match-avatar" style="background:#FF5C35;">RR</div>
@@ -766,7 +766,7 @@ tr:hover td { background: #FAFAF7; }
           <h4>Sample Applicant</h4>
           <p>Data Analyst · Sample Company</p>
         </div>
-        <div class="match-badge">✓ Placed</div>
+        <div class="match-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="display:inline;vertical-align:-1px;margin-right:2px;"><polyline points="20 6 9 17 4 12"/></svg>Placed</div>
       </div>
       <div class="match-item">
         <div class="match-avatar" style="background:#D4A843;">LF</div>
@@ -931,7 +931,7 @@ tr:hover td { background: #FAFAF7; }
     <div class="forms-layout">
       <div class="forms-sidebar">
         <button class="form-type-btn active" id="ftype-company" onclick="setFormType('company')">
-          <div class="form-type-icon">🏢</div>
+          <div class="form-type-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m-1 4h1m4-4h1m-1 4h1"/></svg></div>
           <div class="form-type-text">
             <h4>I'm Hiring</h4>
             <p>Post a role and find the right candidate</p>
@@ -939,7 +939,7 @@ tr:hover td { background: #FAFAF7; }
           <div class="form-type-arrow">›</div>
         </button>
         <button class="form-type-btn" id="ftype-seeker" onclick="setFormType('seeker')">
-          <div class="form-type-icon">🎯</div>
+          <div class="form-type-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
           <div class="form-type-text">
             <h4>I'm Job Hunting</h4>
             <p>Upload your CV and get matched</p>
@@ -947,7 +947,7 @@ tr:hover td { background: #FAFAF7; }
           <div class="form-type-arrow">›</div>
         </button>
         <div class="form-guarantee">
-          <p><strong>🔒 Privacy First</strong>Your information is kept strictly confidential and never shared without your explicit consent.</p>
+          <p><strong><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:-2px;margin-right:4px;"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Privacy First</strong>Your information is kept strictly confidential and never shared without your explicit consent.</p>
         </div>
       </div>
 
@@ -1016,7 +1016,7 @@ tr:hover td { background: #FAFAF7; }
               <label>Resume / CV <span class="req">*</span></label>
               <div class="upload-area" onclick="this.querySelector('input').click()">
                 <input type="file" accept=".pdf,.doc,.docx" style="display:none" onchange="handleUpload(this)">
-                <div style="font-size:28px;margin-bottom:8px;">📄</div>
+                <div style="font-size:28px;margin-bottom:8px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
                 <p>Drag & drop your CV here, or <strong>browse to upload</strong></p>
                 <div class="upload-types">PDF, DOC, DOCX · Max 5MB</div>
               </div>
@@ -1118,16 +1118,16 @@ tr:hover td { background: #FAFAF7; }
       <div class="db-sidebar-logo">Your<em>Brand</em></div>
       <nav class="db-nav">
         <div class="db-nav-section">Main</div>
-        <div class="db-nav-item active" data-page="overview" onclick="dbNav(this,'overview','Dashboard')"><span class="nav-icon">📊</span> Dashboard</div>
-        <div class="db-nav-item" data-page="all-leads" onclick="dbNav(this,'all-leads','All Leads')"><span class="nav-icon">👥</span> All Leads <span class="nav-badge">8</span></div>
-        <div class="db-nav-item" data-page="companies" onclick="dbNav(this,'companies','Companies')"><span class="nav-icon">🏢</span> Companies</div>
-        <div class="db-nav-item" data-page="job-seekers" onclick="dbNav(this,'job-seekers','Job Seekers')"><span class="nav-icon">🎯</span> Job Seekers</div>
+        <div class="db-nav-item active" data-page="overview" onclick="dbNav(this,'overview','Dashboard')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span> Dashboard</div>
+        <div class="db-nav-item" data-page="all-leads" onclick="dbNav(this,'all-leads','All Leads')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> All Leads <span class="nav-badge">8</span></div>
+        <div class="db-nav-item" data-page="companies" onclick="dbNav(this,'companies','Companies')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m-1 4h1m4-4h1m-1 4h1"/></svg></span> Companies</div>
+        <div class="db-nav-item" data-page="job-seekers" onclick="dbNav(this,'job-seekers','Job Seekers')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span> Job Seekers</div>
         <div class="db-nav-section">Tools</div>
-        <div class="db-nav-item" data-page="chatbot" onclick="dbNav(this,'chatbot','AI Chatbot')"><span class="nav-icon">🤖</span> AI Chatbot</div>
-        <div class="db-nav-item" data-page="email-alerts" onclick="dbNav(this,'email-alerts','Email Alerts')"><span class="nav-icon">📧</span> Email Alerts</div>
+        <div class="db-nav-item" data-page="chatbot" onclick="dbNav(this,'chatbot','AI Chatbot')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></span> AI Chatbot</div>
+        <div class="db-nav-item" data-page="email-alerts" onclick="dbNav(this,'email-alerts','Email Alerts')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span> Email Alerts</div>
         <div class="db-nav-section">Settings</div>
-        <div class="db-nav-item" data-page="settings" onclick="dbNav(this,'settings','Settings')"><span class="nav-icon">⚙️</span> Settings</div>
-        <div class="db-nav-item" data-page="users" onclick="dbNav(this,'users','Users')"><span class="nav-icon">🔑</span> Users</div>
+        <div class="db-nav-item" data-page="settings" onclick="dbNav(this,'settings','Settings')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span> Settings</div>
+        <div class="db-nav-item" data-page="users" onclick="dbNav(this,'users','Users')"><span class="nav-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6M15.5 7.5 18 10l3-3"/></svg></span> Users</div>
       </nav>
       <div class="db-sidebar-footer">
         <div class="db-user">
@@ -1143,11 +1143,11 @@ tr:hover td { background: #FAFAF7; }
         <h1 id="db-page-title">Dashboard</h1>
         <div class="db-topbar-r">
           <div class="db-search-wrap">
-            <span class="db-search-icon">🔍</span>
+            <span class="db-search-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
             <input class="db-search" type="text" placeholder="Search leads…">
           </div>
-          <div class="db-btn-icon">🔔<div class="db-notif-dot"></div></div>
-          <div class="db-btn-icon">⚙️</div>
+          <div class="db-btn-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg><div class="db-notif-dot"></div></div>
+          <div class="db-btn-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
         </div>
       </div>
 
@@ -1155,19 +1155,19 @@ tr:hover td { background: #FAFAF7; }
       <div class="db-content db-page active" id="dbp-overview">
         <div class="kpi-grid">
           <div class="kpi-card">
-            <div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">👥</div><span class="kpi-delta up">↑ 12%</span></div>
+            <div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><span class="kpi-delta up">↑ 12%</span></div>
             <div class="kpi-val">156</div><div class="kpi-lbl">Total Leads</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">⚡</div><span class="kpi-delta up">↑ 3 vs. yesterday</span></div>
+            <div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><span class="kpi-delta up">↑ 3 vs. yesterday</span></div>
             <div class="kpi-val">8</div><div class="kpi-lbl">New Today</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;">🏢</div><span class="kpi-delta up">↑ 5 this month</span></div>
+            <div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m-1 4h1m4-4h1m-1 4h1"/></svg></div><span class="kpi-delta up">↑ 5 this month</span></div>
             <div class="kpi-val">42</div><div class="kpi-lbl">Company Inquiries</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1;">📄</div><span class="kpi-delta dn">↓ 2%</span></div>
+            <div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><span class="kpi-delta dn">↓ 2%</span></div>
             <div class="kpi-val">114</div><div class="kpi-lbl">CV Applications</div>
           </div>
         </div>
@@ -1193,10 +1193,10 @@ tr:hover td { background: #FAFAF7; }
           <div class="db-card">
             <div class="db-card-head"><h3>Leads by Source</h3></div>
             <div class="source-list">
-              <div class="source-item"><div class="source-icon" style="background:var(--green-lt);">📋</div><div><div class="source-label">Hire Form</div><div class="source-sub">Company inquiries</div></div><div class="source-count">42</div></div>
-              <div class="source-item"><div class="source-icon" style="background:rgba(255,92,53,0.1);">📄</div><div><div class="source-label">CV Upload</div><div class="source-sub">Job seeker applications</div></div><div class="source-count">114</div></div>
-              <div class="source-item"><div class="source-icon" style="background:#FFF8E6;">🤖</div><div><div class="source-label">AI Chatbot</div><div class="source-sub">Chatbot-qualified leads</div></div><div class="source-count">67</div></div>
-              <div class="source-item"><div class="source-icon" style="background:#F0EBE1;">🚪</div><div><div class="source-label">Exit Intent</div><div class="source-sub">Email captures</div></div><div class="source-count">34</div></div>
+              <div class="source-item"><div class="source-icon" style="background:var(--green-lt);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 3h6a1 1 0 0 1 1 1v2H8V4a1 1 0 0 1 1-1z"/><line x1="9" y1="11" x2="15" y2="11"/><line x1="9" y1="15" x2="15" y2="15"/></svg></div><div><div class="source-label">Hire Form</div><div class="source-sub">Company inquiries</div></div><div class="source-count">42</div></div>
+              <div class="source-item"><div class="source-icon" style="background:rgba(255,92,53,0.1);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="source-label">CV Upload</div><div class="source-sub">Job seeker applications</div></div><div class="source-count">114</div></div>
+              <div class="source-item"><div class="source-icon" style="background:#FFF8E6;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div><div><div class="source-label">AI Chatbot</div><div class="source-sub">Chatbot-qualified leads</div></div><div class="source-count">67</div></div>
+              <div class="source-item"><div class="source-icon" style="background:#F0EBE1;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></div><div><div class="source-label">Exit Intent</div><div class="source-sub">Email captures</div></div><div class="source-count">34</div></div>
             </div>
           </div>
         </div>
@@ -1215,10 +1215,10 @@ tr:hover td { background: #FAFAF7; }
       <!-- ══ PAGE: ALL LEADS ══ -->
       <div class="db-content db-page" id="dbp-all-leads" style="display:none;">
         <div class="kpi-grid" style="margin-bottom:20px;">
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">📥</div><span class="kpi-delta up">↑ 8 today</span></div><div class="kpi-val">156</div><div class="kpi-lbl">All Leads</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(37,99,235,0.1);">🆕</div><span class="kpi-delta up">23 pending</span></div><div class="kpi-val">23</div><div class="kpi-lbl">New / Unread</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">🔄</div></div><div class="kpi-val">78</div><div class="kpi-lbl">In Progress</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">✅</div><span class="kpi-delta up">↑ 4 this week</span></div><div class="kpi-val">55</div><div class="kpi-lbl">Closed / Placed</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div><span class="kpi-delta up">↑ 8 today</span></div><div class="kpi-val">156</div><div class="kpi-lbl">All Leads</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(37,99,235,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div><span class="kpi-delta up">23 pending</span></div><div class="kpi-val">23</div><div class="kpi-lbl">New / Unread</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></div></div><div class="kpi-val">78</div><div class="kpi-lbl">In Progress</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><span class="kpi-delta up">↑ 4 this week</span></div><div class="kpi-val">55</div><div class="kpi-lbl">Closed / Placed</div></div>
         </div>
         <div class="db-card">
           <div class="db-card-head"><h3>All Leads</h3></div>
@@ -1250,10 +1250,10 @@ tr:hover td { background: #FAFAF7; }
       <!-- ══ PAGE: COMPANIES ══ -->
       <div class="db-content db-page" id="dbp-companies" style="display:none;">
         <div class="kpi-grid" style="margin-bottom:20px;">
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">🏢</div><span class="kpi-delta up">↑ 5 this month</span></div><div class="kpi-val">42</div><div class="kpi-lbl">Company Leads</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;">📌</div></div><div class="kpi-val">14</div><div class="kpi-lbl">Open Positions</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">💼</div><span class="kpi-delta up">↑ 2</span></div><div class="kpi-val">9</div><div class="kpi-lbl">Active Searches</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">✅</div></div><div class="kpi-val">19</div><div class="kpi-lbl">Filled Roles</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m-1 4h1m4-4h1m-1 4h1"/></svg></div><span class="kpi-delta up">↑ 5 this month</span></div><div class="kpi-val">42</div><div class="kpi-lbl">Company Leads</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div></div><div class="kpi-val">14</div><div class="kpi-lbl">Open Positions</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><span class="kpi-delta up">↑ 2</span></div><div class="kpi-val">9</div><div class="kpi-lbl">Active Searches</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div></div><div class="kpi-val">19</div><div class="kpi-lbl">Filled Roles</div></div>
         </div>
         <div class="db-card">
           <div class="db-card-head"><h3>Company Inquiries</h3></div>
@@ -1282,10 +1282,10 @@ tr:hover td { background: #FAFAF7; }
       <!-- ══ PAGE: JOB SEEKERS ══ -->
       <div class="db-content db-page" id="dbp-job-seekers" style="display:none;">
         <div class="kpi-grid" style="margin-bottom:20px;">
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">🎯</div><span class="kpi-delta up">↑ 3 today</span></div><div class="kpi-val">114</div><div class="kpi-lbl">CV Applications</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">🔍</div></div><div class="kpi-val">48</div><div class="kpi-lbl">Actively Matching</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;">🤝</div><span class="kpi-delta up">↑ 2 this week</span></div><div class="kpi-val">36</div><div class="kpi-lbl">Placed This Month</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">📄</div></div><div class="kpi-val">30</div><div class="kpi-lbl">CVs Pending Review</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><span class="kpi-delta up">↑ 3 today</span></div><div class="kpi-val">114</div><div class="kpi-lbl">CV Applications</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div></div><div class="kpi-val">48</div><div class="kpi-lbl">Actively Matching</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M9 15l-2 7 5-3 5 3-2-7"/></svg></div><span class="kpi-delta up">↑ 2 this week</span></div><div class="kpi-val">36</div><div class="kpi-lbl">Placed This Month</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div></div><div class="kpi-val">30</div><div class="kpi-lbl">CVs Pending Review</div></div>
         </div>
         <div class="db-card">
           <div class="db-card-head"><h3>Job Seeker Applications</h3></div>
@@ -1315,10 +1315,10 @@ tr:hover td { background: #FAFAF7; }
       <!-- ══ PAGE: AI CHATBOT ══ -->
       <div class="db-content db-page" id="dbp-chatbot" style="display:none;">
         <div class="kpi-grid" style="margin-bottom:20px;">
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;">🤖</div><span class="kpi-delta up">↑ 18%</span></div><div class="kpi-val">67</div><div class="kpi-lbl">Conversations</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">✅</div></div><div class="kpi-val">31</div><div class="kpi-lbl">Qualified Leads</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">📧</div></div><div class="kpi-val">46</div><div class="kpi-lbl">Emails Captured</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1);">📊</div></div><div class="kpi-val">46%</div><div class="kpi-lbl">Qualification Rate</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div><span class="kpi-delta up">↑ 18%</span></div><div class="kpi-val">67</div><div class="kpi-lbl">Conversations</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div></div><div class="kpi-val">31</div><div class="kpi-lbl">Qualified Leads</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></div></div><div class="kpi-val">46</div><div class="kpi-lbl">Emails Captured</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div></div><div class="kpi-val">46%</div><div class="kpi-lbl">Qualification Rate</div></div>
         </div>
         <div class="db-card">
           <div class="db-card-head"><h3>Recent Conversations</h3><span style="font-size:12px;color:var(--warm-gray);">Flowise · chatflow-001</span></div>
@@ -1339,10 +1339,10 @@ tr:hover td { background: #FAFAF7; }
       <!-- ══ PAGE: EMAIL ALERTS ══ -->
       <div class="db-content db-page" id="dbp-email-alerts" style="display:none;">
         <div class="kpi-grid" style="margin-bottom:20px;">
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;">📧</div></div><div class="kpi-val">34</div><div class="kpi-lbl">Exit Intent Captures</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);">📬</div><span class="kpi-delta up">↑ 5%</span></div><div class="kpi-val">312</div><div class="kpi-lbl">Subscribers</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;">📤</div></div><div class="kpi-val">47</div><div class="kpi-lbl">Emails Sent Today</div></div>
-          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1;">📈</div></div><div class="kpi-val">68%</div><div class="kpi-lbl">Open Rate</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#E8F0EC;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></div></div><div class="kpi-val">34</div><div class="kpi-lbl">Exit Intent Captures</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:rgba(255,92,53,0.1);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div><span class="kpi-delta up">↑ 5%</span></div><div class="kpi-val">312</div><div class="kpi-lbl">Subscribers</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#FFF8E6;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></div></div><div class="kpi-val">47</div><div class="kpi-lbl">Emails Sent Today</div></div>
+          <div class="kpi-card"><div class="kpi-header"><div class="kpi-icon" style="background:#F0EBE1;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div></div><div class="kpi-val">68%</div><div class="kpi-lbl">Open Rate</div></div>
         </div>
         <div class="content-grid">
           <div class="db-card">
@@ -1358,9 +1358,9 @@ tr:hover td { background: #FAFAF7; }
           <div class="db-card">
             <div class="db-card-head"><h3>Email Subscribers</h3></div>
             <div class="source-list">
-              <div class="source-item"><div class="source-icon" style="background:#F0EBE1;">🚪</div><div><div class="source-label">Exit Intent Modal</div><div class="source-sub">Captured on page leave</div></div><div class="source-count">34</div></div>
-              <div class="source-item"><div class="source-icon" style="background:#FFF8E6;">🤖</div><div><div class="source-label">Chatbot</div><div class="source-sub">Captured during chat</div></div><div class="source-count">46</div></div>
-              <div class="source-item"><div class="source-icon" style="background:var(--green-lt);">📋</div><div><div class="source-label">Footer Signup</div><div class="source-sub">Newsletter opt-in</div></div><div class="source-count">232</div></div>
+              <div class="source-item"><div class="source-icon" style="background:#F0EBE1;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></div><div><div class="source-label">Exit Intent Modal</div><div class="source-sub">Captured on page leave</div></div><div class="source-count">34</div></div>
+              <div class="source-item"><div class="source-icon" style="background:#FFF8E6;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div><div><div class="source-label">Chatbot</div><div class="source-sub">Captured during chat</div></div><div class="source-count">46</div></div>
+              <div class="source-item"><div class="source-icon" style="background:var(--green-lt);"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 3h6a1 1 0 0 1 1 1v2H8V4a1 1 0 0 1 1-1z"/><line x1="9" y1="11" x2="15" y2="11"/><line x1="9" y1="15" x2="15" y2="15"/></svg></div><div><div class="source-label">Footer Signup</div><div class="source-sub">Newsletter opt-in</div></div><div class="source-count">232</div></div>
             </div>
           </div>
         </div>
@@ -1431,12 +1431,12 @@ tr:hover td { background: #FAFAF7; }
 <!-- ── CHATBOT WIDGET (shared) ── -->
 <button class="chat-btn" id="chatBtn" onclick="toggleChat()" title="Chat with us">
   <div class="chat-badge-dot"></div>
-  💬
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
 </button>
 
 <div class="chat-window" id="chatWindow">
   <div class="chat-head">
-    <div class="chat-avi">🤖</div>
+    <div class="chat-avi"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div>
     <div class="chat-head-info">
       <h4>Recruitment Assistant</h4>
       <span>Online now</span>
@@ -1444,14 +1444,14 @@ tr:hover td { background: #FAFAF7; }
   </div>
   <div class="chat-msgs" id="chatMsgs">
     <div class="cmsg bot">
-      <div class="cmsg-avi">🤖</div>
-      <div class="cmsg-bubble">Hi! 👋 I'm your recruitment assistant. Are you looking to <strong>hire talent</strong> or <strong>find a job</strong>?</div>
+      <div class="cmsg-avi"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div>
+      <div class="cmsg-bubble">Hi! I'm your recruitment assistant. Are you looking to <strong>hire talent</strong> or <strong>find a job</strong>?</div>
     </div>
   </div>
   <div class="chat-quick" id="chatQuick">
-    <button class="cq-btn" onclick="sendQuick('I want to hire talent')">🏢 Hire talent</button>
-    <button class="cq-btn" onclick="sendQuick('I am looking for a job')">🎯 Find a job</button>
-    <button class="cq-btn" onclick="sendQuick('I have a question')">❓ Question</button>
+    <button class="cq-btn" onclick="sendQuick('I want to hire talent')">Hire talent</button>
+    <button class="cq-btn" onclick="sendQuick('I am looking for a job')">Find a job</button>
+    <button class="cq-btn" onclick="sendQuick('I have a question')">Question</button>
   </div>
   <div class="chat-input-row">
     <input class="chat-inp" id="chatInp" placeholder="Type a message…" onkeypress="if(event.key==='Enter')sendChat()">
@@ -1574,7 +1574,7 @@ function switchHowTab(tab) {
 function handleUpload(input) {
   if (input.files[0]) {
     const area = input.closest('.upload-area');
-    area.innerHTML = `<div style="font-size:28px;margin-bottom:8px;">✅</div><p><strong>${input.files[0].name}</strong></p><div class="upload-types">${(input.files[0].size/1024).toFixed(0)} KB · Ready to submit</div>`;
+    area.innerHTML = `<div style="font-size:28px;margin-bottom:8px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><p><strong>${input.files[0].name}</strong></p><div class="upload-types">${(input.files[0].size/1024).toFixed(0)} KB · Ready to submit</div>`;
   }
 }
 
@@ -1605,7 +1605,7 @@ let chatOpen = false;
 function toggleChat() {
   chatOpen = !chatOpen;
   document.getElementById('chatWindow').classList.toggle('open', chatOpen);
-  document.getElementById('chatBtn').innerHTML = (chatOpen ? '<div class="chat-badge-dot"></div>✕' : '<div class="chat-badge-dot"></div>💬');
+  document.getElementById('chatBtn').innerHTML = (chatOpen ? '<div class="chat-badge-dot"></div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>' : '<div class="chat-badge-dot"></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>');
 }
 const botReplies = {
   hire: "Great! To get started with hiring, fill out the quick form on our page. I can also pull up current candidate availability — what role are you looking to fill?",
@@ -1632,7 +1632,7 @@ function addCMsg(text, role) {
   const el = document.createElement('div');
   el.className = `cmsg ${role}`;
   el.innerHTML = role === 'bot'
-    ? `<div class="cmsg-avi">🤖</div><div class="cmsg-bubble">${text}</div>`
+    ? `<div class="cmsg-avi"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div><div class="cmsg-bubble">${text}</div>`
     : `<div class="cmsg-bubble">${text}</div>`;
   const msgs = document.getElementById('chatMsgs');
   msgs.appendChild(el); msgs.scrollTop = msgs.scrollHeight; return el;
@@ -1640,7 +1640,7 @@ function addCMsg(text, role) {
 function addTyping() {
   const el = document.createElement('div');
   el.className = 'cmsg bot';
-  el.innerHTML = `<div class="cmsg-avi">🤖</div><div class="cmsg-bubble"><div class="typing-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>`;
+  el.innerHTML = `<div class="cmsg-avi"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16v-2M16 16v-2"/></svg></div><div class="cmsg-bubble"><div class="typing-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>`;
   const msgs = document.getElementById('chatMsgs');
   msgs.appendChild(el); msgs.scrollTop = msgs.scrollHeight; return el;
 }
@@ -1657,7 +1657,7 @@ function closeModal() { document.getElementById('exitModal').classList.remove('s
 function submitExit() {
   const email = document.getElementById('exitEmail').value;
   if (!email) return;
-  document.getElementById('modalContent').innerHTML = `<div class="modal-success"><div class="big-check">✅</div><h4>You're subscribed!</h4><p>Watch your inbox for job alerts and career insights from our team.</p></div>`;
+  document.getElementById('modalContent').innerHTML = `<div class="modal-success"><div class="big-check"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h4>You're subscribed!</h4><p>Watch your inbox for job alerts and career insights from our team.</p></div>`;
   setTimeout(closeModal, 2500);
 }
 document.getElementById('exitModal').addEventListener('click', function(e){ if(e.target===this) closeModal(); });
